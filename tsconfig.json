@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "es6",
+    "target": "es5",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "allowJs": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "traceResolution": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "test.*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
